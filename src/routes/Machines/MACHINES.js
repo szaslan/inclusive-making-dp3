@@ -16,7 +16,7 @@ export const MACHINES = {
         },
         {
           info: "Never leave the Glowforge unattended.",
-          icon: "https://image.flaticon.com/icons/svg/1487/1487118.svg",
+          icon: "https://image.flaticon.com/icons/svg/617/617064.svg",
           alt: "Person"
         },
         {
@@ -98,7 +98,7 @@ export const MACHINES = {
         },
         {
           info: "Never leave the Carvey unattended.",
-          icon: "https://image.flaticon.com/icons/svg/1487/1487118.svg",
+          icon: "https://image.flaticon.com/icons/svg/617/617064.svg",
           alt: "Person"
         }
       ],
