@@ -1,0 +1,62 @@
+.machines__container {
+  padding: 32px;
+}
+
+.machines__info--text {
+  margin-right: 48px;
+}
+.machines__info--container {
+  display: flex;
+}
+
+.machines__list {
+  padding-left: 16px;
+}
+
+.machine__picture {
+  height: 200px;
+}
+
+.hazard__icon {
+  width: 64px;
+}
+
+.hazard__list-item {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 24px 0;
+}
+
+.hazard__list-item > img {
+  margin-right: 24px;
+}
+.hazard__list-item > div {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.quote__container {
+  padding: 8px;
+  padding-left: 24px;
+  background: #eeeaff;
+  position: relative;
+}
+.quote__container::before {
+  content: "";
+  width: 10px;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #a093ec;
+  position: absolute;
+}
+
+@media (max-width: 600px) {
+  .machines__info--container {
+    flex-wrap: wrap;
+  }
+  /* .machine__picture {
+    display: none;
+  } */
+}
