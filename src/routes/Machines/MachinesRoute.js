@@ -23,6 +23,7 @@ const MachinesRoute = ({ match }) => {
         <img
           src={machine.picture}
           alt={machine.name}
+          role="presentation"
           className="machine__picture"
         />
       </div>
